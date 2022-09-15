@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/isci/Documents/TSAI_FU/FS/FSenser.cpp
+EcatDeviceAPI.h
+/home/isci/Documents/TSAI_FU/FS/EcatDeviceAPI.h
+iostream
+-
+stdio.h
+-
+string
+-
+vector
+-
+unistd.h
+-
+fstream
+-
+
+/opt/icpdas/ecat_m801/include/EcatDeviceAPI.h
+stdint.h
+-
+Windows.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/project.dir/FSenser.cpp.o  -o project   -L/opt/icpdas/ecat_m801/lib  -Wl,-rpath,/opt/icpdas/ecat_m801/lib -lecatdevice -lpthread 
