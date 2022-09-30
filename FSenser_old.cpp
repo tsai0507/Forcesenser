@@ -120,8 +120,8 @@ int main(void) {
     uint16_t SlaveNo, BitNo;
     ECAT_GetDeviceEmg(DeviceNo, &Source, &Enable, &Logic, &SlaveNo, &BitNo, &ServoOff);
 
-    cout<<DeviceNo<<endl;
-    cout<<SlaveNo<<endl;
+    //cout<<DeviceNo<<endl;
+    //cout<<SlaveNo<<endl;
     
     char Slavename[MAX_SLAVE_NAME_LENGTH];
     uint8_t AcatState; 
